@@ -4,28 +4,17 @@ body{
     font-family: 'Fredoka';
 }
 
-header img {
-    width: 150px;
+.header{
+    align-items: right;
 }
 
-header img:hover{
-    transform: scale(1.2);
-}
-
-header a{
-    float: right;
-    cursor: default;
-}
-
-header button {
-    background-color: #FA3418;
-    color: white;
-    width: 100px;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    margin: 20px;
-    cursor: pointer;
+.container {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
 }
 
 .saludo {

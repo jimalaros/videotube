@@ -1,20 +1,17 @@
-import { cards } from '../data/data.js'
-import { mostrarCards } from '../modules/mostrar.js';
+import { datos } from '../data/data.js'
+import { mostrarData } from '../modules/mostrar.js';
 
 let saludo = document.getElementById("saludo");
 const cardsC = document.getElementById('cards')
 let nombre = localStorage.getItem("nombre");
-let masoSeleccionado = JSON.parse(localStorage.getItem('mazo'));
-let cartasSeleccionadas = masoSeleccionado ? masoSeleccionado : [];
+//let masoSeleccionado = JSON.parse(localStorage.getItem('mazo'));
+//let cartasSeleccionadas = masoSeleccionado ? masoSeleccionado : [];
 let contador = document.querySelector('a');
 
 
 saludo.textContent = `Hola ${nombre}, te damos la bienvenida`
 
-mostrarCards(cardsC, cards);
-contador.innerHTML = `
-         <button>${cartasSeleccionadas.length}</button>
-         `
+mostrarData(cardsC, datos);
 
 document.addEventListener('dblclick', ({ target }) => {
 
@@ -31,7 +28,7 @@ document.addEventListener('dblclick', ({ target }) => {
             cards.splice(indice, 1);
 
 
-            mostrarCards(cardsC, cards);
+            mostrarData(cardsC, cards);
             cartasSeleccionadas.push(carta);
 
             localStorage.setItem('mazo', JSON.stringify(cartasSeleccionadas));
