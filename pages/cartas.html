@@ -11,10 +11,17 @@
 
     <header id="header" class="header">
         <div class="container">
-            <form action="#" id="busqueda" method="post" class="formulario">
-                <input class="u-full-width" type="text" placeholder="¿Que te gustaría ver?" id="buscador"/>
-                <input type="submit" id="submit-buscador" class="submit-buscador" />
+            <form id="busqueda">
+                <input type="text" required placeholder="¿Que te gustaría ver?" id="buscador">
+                <button>
+                    <a href="./filtro.html">BUSCAR</a>
+                </button>
             </form>
+        </div>
+        <div class="form">
+            <button>
+                <a href="./formulario.html">AÑADIR</a>
+            </button>
         </div>
     </header>
 
@@ -23,7 +30,8 @@
         <section id="cards"></section>
     </main>
 
-    <script src="../scripts/cartas.js" type="module"></script>
+    <script src="../scripts/category.js" type="module" crossorigin="anonymous"></script>
+    <script src="../scripts/cartas.js" type="module" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

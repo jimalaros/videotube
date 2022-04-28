@@ -4,6 +4,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/A_DONDE_VAMOS.png",
     name: "A donde vamos",
+    categoria: "rock",
     cantante: "MANCHA DE ROLANDO",
   },
   {
@@ -11,6 +12,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/A_PIE_FIRME.jpg",
     name: "A pie firme",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
@@ -18,6 +20,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/AHORA2.jpg",
     name: "Ahora 2",
+    categoria: "freestyle",
     cantante: "QUEVEDO",
   },
   {
@@ -25,6 +28,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/Alphaville-Forever-Young.jpg",
     name: "For ever young",
+    categoria: "rock",
     cantante: "ALPHAVILLE",
   },
   {
@@ -32,13 +36,15 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/ANTES_DE_PARTIR.jpg",
     name: "Antes de partir",
+    categoria: "rap",
     cantante: "RAFA ESPINO - SHE - DANTE",
   },
   {
     id: 6,
-    url: "../images/Ellas.mp4",
+    url: "https://www.youtube.com/watch?v=h5EzNzv4eP4&list=RDGMEM2VCIgaiSqOfVzBAjPJm-ag&index=19",
     img: "../images/CHINO.jpg",
     name: "Chino",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
@@ -46,6 +52,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/COINCIDIR.jpg",
     name: "A pie firme",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
@@ -53,6 +60,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/DESDE_DENTRO.jpg",
     name: "Desde dentro",
+    categoria: "rap",
     cantante: "Beret",
   },
   {
@@ -60,6 +68,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/DESDE_LA_PRIMERA_PUERTA.jpg",
     name: "Desde la primera puerta",
+    categoria: "rap",
     cantante: "ANSIOLITIKO",
   },
   {
@@ -67,20 +76,23 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/DESDE_MIS_OJOS.jpg",
     name: "Desde mis ojos",
+    categoria: "pop",
     cantante: "CHRIS LEBRON",
   },
   {
     id: 11,
-    url: "../images/Ellas.mp4",
+    url: "../images/despedida.mp4",
     img: "../images/DESPEDIDA.jpg",
     name: "Despedida",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
     id: 12,
     url: "../images/Ellas.mp4",
     img: "../images/DIEZ_MIL_PORQUÉS.jpg",
-    name: "A pie firme",
+    name: "Diez mil porqués",
+    categoria: "rap",
     cantante: "BERET",
   },
   {
@@ -88,6 +100,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/EDUCANDO_ESCLAVOS.jpg",
     name: "Educando esclavos",
+    categoria: "freestyle",
     cantante: "LYTOS",
   },
   {
@@ -95,6 +108,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/El-Anciano-Y-El-Nino.png",
     name: "El Anciano y el niño",
+    categoria: "freestyle",
     cantante: "Cheo Gallego",
   },
   {
@@ -102,6 +116,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/ELLAS.jpg",
     name: "Ellas",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
@@ -109,6 +124,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/EVOLUCION.jpg",
     name: "Evolución",
+    categoria: "rock",
     cantante: "ADRIAN BERRA",
   },
   {
@@ -116,6 +132,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/HASTA_LA_RAIZ.jpg",
     name: "Hasta la raiz",
+    categoria: "pop",
     cantante: "NATALIA LAFOURCADE",
   },
   {
@@ -123,13 +140,15 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/HUELLAS.jpg",
     name: "Huellas",
+    categoria: "pop",
     cantante: "JOE VASCONCELLOS",
   },
   {
     id: 19,
     url: "../images/Ellas.mp4",
     img: "../images/LA_VIDA_ES_ESO.jpg",
-    name: "La urla es eso",
+    name: "La vida es eso",
+    categoria: "freestyle",
     cantante: "AMBKOR",
   },
   {
@@ -137,6 +156,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/LO_MAS_FINO.png",
     name: "Lo mas fino",
+    categoria: "rock",
     cantante: "PASTILLAS DEL ABUELO",
   },
   {
@@ -144,27 +164,31 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/MIEDO.jpg",
     name: "MIEDO",
+    categoria: "rap",
     cantante: "AFAZ NATURAL",
   },
   {
     id: 22,
     url: "../images/Ellas.mp4",
     img: "../images/MIRENLA.jpg",
-    name: "mIRENLA",
+    name: "MIRENLA",
+    categoria: "rock",
     cantante: "CIRO Y LOS PERSAS",
   },
   {
     id: 23,
-    url: "../images/Ellas.mp4",
+    url: "../images/mujersinnombre.mp4",
     img: "../images/MUJER_SIN_NOMBRE.jpg",
     name: "Mujer sin nombre",
+    categoria: "freestyle",
     cantante: "Penyair",
   },
   {
     id: 24,
-    url: "../images/Ellas.mp4",
+    url: "../images/pocahontas.mp4",
     img: "../images/POCAHONTAS.jpg",
     name: "Pocahontas",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
@@ -172,6 +196,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/POR_SI_ME_FALTAS.jpg",
     name: "Por si me faltas",
+    categoria: "rap",
     cantante: "BERET",
   },
   {
@@ -179,6 +204,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/PROTOTIPO.jpg",
     name: "Prototipo",
+    categoria: "hip-hop",
     cantante: "NANPA",
   },
   {
@@ -186,6 +212,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/QUITAME_LAS_ALAS.jpg",
     name: "Quitame las alas",
+    categoria: "pop",
     cantante: "HUMBE",
   },
   {
@@ -193,13 +220,15 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/SOLDADITO_MARINERO.jpg",
     name: "Soldadido marinero",
+    categoria: "rock",
     cantante: "FITO Y FITIPALDIS",
   },
   {
     id: 29,
-    url: "../images/Ellas.mp4",
+    url: "../images/soltar.mp4",
     img: "../images/SOLTAR.png",
     name: "Soltar",
+    categoria: "rap",
     cantante: "DROOW",
   },
   {
@@ -207,6 +236,7 @@ export const datos = [
     url: "../images/Ellas.mp4",
     img: "../images/TU_SONRISA.png",
     name: "Tu sonrisa",
+    categoria: "rock",
     cantante: "1280 ALMAS",
   },
 ];

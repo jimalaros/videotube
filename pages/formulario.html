@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/formulario.css">
+    <title></title>
+</head>
+<body>
+    <div class="principal">
+        <div class="form-container">
+            <form action="/" class="form" method="post">
+                <div>
+                    <label for="url" class="label">URL</label>
+                    <input type="text" id="urlVideo" placeholder="https://www.youtube.com/watch?v=S5UEoLeza-o&list=RDGMEM2VCIgaiSqOfVzBAjPJm-ag&index=16" class="input input-dato"/>
+                    <label for="img" class="label">IMAGEN</label>
+                    <input type="text" id="imagenVideo" placeholder="https://i1.sndcdn.com/artworks-000132781887-n6b3i9-t500x500.jpg" class="input input-dato"/>
+                    <label for="name" class="label">NOMBRE</label>
+                    <input type="text" id="nombreCancion" placeholder="BANDA MS - HABLAME DE TI" class="input input-dato"/>
+                    <label for="categoria" class="label">CATEGORIA</label>
+                    <input type="text" id="categoriaVideo" placeholder="popular" class="input input-dato"/>
+                    <label for="cantante" class="label">CANTANTE</label>
+                    <input type="text" id="cantanteVideo" placeholder="BANDA-MS" class="input input-dato"/>
+                </div>
+                <button class="primary-button" onclick="Crear()">
+                    <a href="./cartas.html">CREAR</a>
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="../scripts/nuevoVideo.js" type="module" crossorigin="anonymous"></script>
+</body>
+</html>
