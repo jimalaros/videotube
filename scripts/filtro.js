@@ -8,6 +8,6 @@ const categoria = localStorage.getItem("categoria");
 welcomeSection.textContent = `Hola ${nombre}, estos son tus videos`;
 
 const videos = document.getElementById('videos');
-const opción = datos.filter(video => video.categoria == categoria)
+const opcion = datos.filter(video => video.categoria == categoria)
 
-mostrarData(videos, opción)
+mostrarData(videos, opcion)

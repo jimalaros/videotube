@@ -1,4 +1,4 @@
-let form =  document.getElementById("btn")
+let form =  document.querySelector(".btn")
 
 form.addEventListener("submit", function (e) {
     e.preventDefault()
